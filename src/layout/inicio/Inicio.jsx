@@ -1,5 +1,5 @@
 import Boton from "../../Componentes/Botones/Boton";
-import fotoYo from "/src/assets/YO.png"
+import fotoYo from "/public/assets/YO.png"
 
 const Inicio = () => {
     return (

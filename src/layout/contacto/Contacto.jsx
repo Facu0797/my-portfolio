@@ -1,6 +1,6 @@
 import { useForm } from 'react-hook-form';
-import ubicacion from "/src/assets/ubicacion.svg"
-import contactame from "/src/assets/contactame.svg"
+import ubicacion from "/public/assets/ubicacion.svg"
+import contactame from "/public/assets/contactame.svg"
 import BotonContacto from '../../Componentes/Botones/BotonContacto';
 import Redes from '../../Componentes/Redes';
 import { useState } from 'react';
