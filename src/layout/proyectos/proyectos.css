@@ -1,0 +1,169 @@
+#proyectos {
+    scroll-margin-top: 6rem;
+  }
+  
+  .proyectos {
+    font-size: 2.0rem;
+    font-family: var(--ff-titulo);
+  }
+  
+  .seccion-proyectos {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 4rem;
+    padding-inline: 1rem;
+  }
+  
+  .contenedor-carta {
+    display: flex;
+    gap: 3.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .carta {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--secondary-color);
+    background: #353535;
+    transition: .5s ease;
+  }
+  
+  .carta:hover {
+    box-shadow: 0 0 10px var(--primary-color);
+    transform: scale(1.01);
+  }
+  
+  .img-proyecto {
+    max-width: 100%;
+    border: 3px solid black;
+  }
+  
+  .carta-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 300px;
+    text-align: center;
+    color: var(--font-color);
+    margin-bottom: 1rem;
+  }
+  
+  .carta-info h3 {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+  }
+  
+  .tecnologias {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .img-tecnologia {
+    width: 25px;
+  }
+  
+  .botones-proyectos {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+                      /*****************    MQ     *******************/
+
+                      
+  @media (max-width: 1190px) {
+    .seccion-proyectos {
+      margin-inline: 2rem;
+    }
+    .carta {
+      flex: 1;
+      align-items: center;
+    }
+    .carta-info {
+      width: 100%;
+    }
+    .seccion-tecnologias {
+      padding-inline: 2rem;
+    }
+  }
+  
+  @media (max-width: 1168px) {
+    .carta-info p{
+      font-size: 1.1rem;
+    }
+    .carta-info h3 {
+      font-size: 1.6rem;
+    }
+    .img-tecnologia {
+      width: 30px;
+    }
+    .botones-proyectos {
+      gap: 2rem;
+    }
+  }
+  
+  @media (max-width: 824px) {
+    .seccion-proyectos {
+      margin-inline: 3rem;
+      align-items: center;
+    }
+    .carta-info h3{
+      font-size: 2rem;
+    }
+    .img-tecnologia {
+      width: 35px;
+    }
+    .carta-info p{
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .seccion-proyectos{
+      align-items: center;
+    }
+  
+    .carta-info {
+      width: 100%;
+    }
+  
+    .img-proyecto {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 625px) {
+    .carta-info h3 {
+      font-size: 1.8rem;
+    }
+    .carta-info p {
+      font-size: 1.1rem;
+    }
+    .img-tecnologia {
+      width: 30px;
+    }
+    .seccion-tecnologias h2{
+      padding-inline: 1rem;
+    }
+    .seccion-tecnologias .tecnologias .tecnologia img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
+  @media (max-width: 460px) {
+    .seccion-proyectos {
+      margin-inline: 1rem;
+    }
+    .seccion-tecnologias h2{
+      padding-inline: 0;
+    }
+  }

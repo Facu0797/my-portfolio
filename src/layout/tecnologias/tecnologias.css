@@ -1,0 +1,34 @@
+.seccion-tecnologias {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    gap: 4rem;
+  }
+  
+  .seccion-tecnologias h2 {
+    margin-left: 1rem;
+    font-size: 2rem;
+  }
+  
+  .seccion-tecnologias .tecnologias {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .seccion-tecnologias .tecnologias .tecnologia {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .seccion-tecnologias .tecnologias .tecnologia img {
+    width: 80px;
+    height: 70px;
+  }
+  

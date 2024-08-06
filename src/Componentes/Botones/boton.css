@@ -1,0 +1,143 @@
+
+.boton-cv {
+    background-color: #ffffff00;
+    color: #fff;
+    width: 10rem;
+    height: 3em;
+    border: var(--primary-color) 0.2em solid;
+    border-radius: 11px;
+    text-align: right;
+    transition: all 0.6s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .boton-cv:hover {
+    background-color: var(--primary-color);
+    cursor: pointer;
+  }
+  
+  .boton-cv svg {
+    width: 1.6em;
+    margin: 0 0.8em; 
+    transition: all 0.6s ease;
+  }
+  
+  .boton-cv:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .text {
+    margin-right: 1.5em;
+  }
+
+  /********************     BOTON GITHUB    ********************/
+
+  
+.boton-git-hub {
+  margin-top: 2rem;
+  background-color: #ffffff00;
+  color: #fff;
+  width: 8rem;
+  height: 3em;
+  border: var(--primary-color) 0.2em solid;
+  border-radius: 11px;
+  text-align: right;
+  transition: all 0.6s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.boton-git-hub:hover {
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+.boton-git-hub svg {
+  width: 1.6em;
+  margin: 0 0.8em; 
+  transition: all 0.6s ease;
+}
+
+.boton-git-hub:hover svg {
+  transform: translateX(5px);
+}
+
+.text {
+  margin-right: 1.5em;
+}
+
+  /********************     BOTON SITIO WEB    ********************/
+
+  .boton-sitio-web {
+    margin-top: 2rem;
+    background-color: #ffffff00;
+    color: #fff;
+    width: 8rem;
+    height: 3em;
+    border: white 0.2em solid;
+    border-radius: 11px;
+    text-align: right;
+    transition: all 0.6s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .boton-sitio-web:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .boton-sitio-web svg {
+    width: 1.6em;
+    margin: 0 0.8em; 
+    transition: all 0.6s ease;
+  }
+  
+  .boton-sitio-web:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .text-sitio-web {
+    margin-right: 1.5em;
+    color: var(--primary-color);
+  }
+
+  /****************** BOTON CONTACTO ***************/
+
+  .boton-contacto {
+    margin-top: 2rem;
+    background-color: #ffffff00;
+    color: #fff;
+    width: 7rem;
+    height: 3em;
+    border: var(--primary-color) 0.2em solid;
+    border-radius: 11px;
+    text-align: right;
+    transition: all 0.6s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .boton-contacto:hover {
+    background-color: var(--primary-color);
+    cursor: pointer;
+  }
+  
+  .boton-contacto svg {
+    width: 1.6em;
+    margin: 0 0.8em; 
+    transition: all 0.6s ease;
+  }
+  
+  .boton-contacto:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .text {
+    margin-right: 1.5em;
+  }
