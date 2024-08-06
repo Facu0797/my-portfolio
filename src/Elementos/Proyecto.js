@@ -4,7 +4,7 @@ import javascript from "/assets/javascript.svg"
 import react from "/assets/react.svg"
 import sass from "/assets/sass.svg";
 import baccoCoffee from "/assets/bacco-coffee.jpg"
-import buscadorEmojis from "/assets/buscador-peliculas.jpg"
+import buscadorEmojis from "/public/assets/emojis.jpg"
 import buscadorPelis from "/assets/buscador-peliculas.jpg"
 import generadorDeColores from "/assets/generador-de-colores.jpg"
 import transfBancaria from "/assets/transferencia-bancaria.jpg"
