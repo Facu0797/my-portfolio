@@ -1,46 +1,58 @@
+import vsc from "/assets/vsc_logo.png"
+import html from "/assets/html_logo.png"
+import css from "/assets/css.svg"
+import javascript from "/assets/javascript.svg"
+import react from "/assets/react.svg"
+import boostrap from "/assets/bootstrap_logo.png"
+import sass from "/assets/sass.svg"
+import styledComponent from "/assets/styledcomp_logo.png"
+import git from "/assets/git_logo.png"
+import gitHub from "/assets/github_logo.png"
+import firebase from "/assets/firebase_logo.svg"
+
 export const tecnologias = [
     {
         nombre: "Visual Studio Code",
-        icono: "/public/assets/vsc_logo.png",
+        icono: vsc,
     },
     {
         nombre: "Html",
-        icono: "/public/assets/html_logo.png",
+        icono: html,
     },
     {
         nombre: "Css",
-        icono: "/public/assets/css.svg",
+        icono: css,
     },
     {
         nombre: "Javascript",
-        icono: "/public/assets/javascript.svg",
+        icono: javascript,
     },
     {
         nombre: "React",
-        icono: "/public/assets/react.svg",
+        icono: react,
     },
     {
         nombre: "Boostrap",
-        icono: "/public/assets/bootstrap_logo.png",
+        icono: boostrap,
     },
     {
         nombre: "Sass",
-        icono: "/public/assets/sass.svg",
+        icono: sass,
     },
     {
         nombre: "Styled Component",
-        icono: "/public/assets/styledcomp_logo.png",
+        icono: styledComponent,
     },
     {
         nombre: "Git",
-        icono: "/public/assets/git_logo.png",
+        icono: git,
     },
     {
         nombre: "Git Hub",
-        icono: "/public/assets/github_logo.png",
+        icono: gitHub,
     },
     {
         nombre: "Firebase",
-        icono: "/public/assets/firebase_logo.svg",
+        icono: firebase,
     },
 ]

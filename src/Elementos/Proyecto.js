@@ -1,14 +1,14 @@
-import vite from "/public/assets/vite.svg"
-import css from "/public/assets/css.svg"
-import javascript from "/public/assets/javascript.svg"
-import react from "/public/assets/react.svg"
-import sass from "/public/assets/sass.svg";
-import baccoCoffee from "/public/assets/bacco-coffee.jpg"
-import buscadorEmojis from "/public/assets/buscador-peliculas.jpg"
-import buscadorPelis from "/public/assets/buscador-peliculas.jpg"
-import generadorDeColores from "/public/assets/generador-de-colores.jpg"
-import transfBancaria from "/public/assets/transferencia-bancaria.jpg"
-import suscripciones from "/public/assets/suscripciones.jpg"
+import vite from "/assets/vite.svg"
+import css from "/assets/css.svg"
+import javascript from "/assets/javascript.svg"
+import react from "/assets/react.svg"
+import sass from "/assets/sass.svg";
+import baccoCoffee from "/assets/bacco-coffee.jpg"
+import buscadorEmojis from "/assets/buscador-peliculas.jpg"
+import buscadorPelis from "/assets/buscador-peliculas.jpg"
+import generadorDeColores from "/assets/generador-de-colores.jpg"
+import transfBancaria from "/assets/transferencia-bancaria.jpg"
+import suscripciones from "/assets/suscripciones.jpg"
 
 export const proyectos = [
     {
