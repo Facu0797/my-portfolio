@@ -63,6 +63,12 @@
     max-width: 425px;
   }
 
+  .inicio-contactame {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+  }
+
           /************************        MQ       **********************/
 
   @media screen and (max-width: 1200px){

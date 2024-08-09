@@ -1,7 +1,11 @@
+import { useTranslation } from "react-i18next";
+
 const Footer = () => {
+    const {t} = useTranslation();
+
     return ( 
         <footer className="seccion-footer">
-            <h4>© Facundo Almiñana - 2024. Todos los derechos reservados.</h4>
+            <h4>{t("FOOTER")}</h4>
         </footer>    
     );
 }

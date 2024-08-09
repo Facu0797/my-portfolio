@@ -1,10 +1,13 @@
+import { useTranslation } from "react-i18next";
 import { tecnologias } from "../../Elementos/tecnologias";
 
+
 const Tecnologias = () => {
+    const {t} = useTranslation();
 
     return ( 
         <section className="seccion-tecnologias">
-            <h2>TECNOLOGIAS</h2>
+            <h2>{t("TECNOLOGIAS.TITULO")}</h2>
             <div className="tecnologias">
                 {tecnologias.map((item) => (
                     <div key={item.nombre} className="tecnologia">

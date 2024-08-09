@@ -1,0 +1,39 @@
+{
+    "NAVBAR.INICIO": "Home",
+    "NAVBAR.PROYECTOS": "Projects",
+    "NAVBAR.CONTACTO": "Contact",
+
+    "INICIO.H2": "FrontEnd Developer",
+    "INICIO.TEXTO.UNO": "I am a self-taught programmer with a strong interest in technology. I dedicate myself to constantly studying and improving my skills.",
+    "INICIO.TEXTO.DOS": "I enjoy solving problems and facing challenges that allow me to grow as a developer. Programming is my daily motivation and drives me to keep learning.",
+    "INICIO.CV": "Download CV",
+    
+    "PROYECTOS.TITULO": "PROJECTS",
+    "PROYECTOS.BACCO.TEXTO": "The Bacco Coffee project was my final delivery for the JavaScript course at Coderhouse. It's a minimalist website that includes a simple and efficient shopping cart.",
+    "PROYECTOS.BACCO.TITULO": "Bacco Coffee",
+    "PROYECTOS.EMOJIS.TEXTO": "This is a React+Vite application that allows you to search and find emojis quickly through a JSON file, showing relevant results in real-time.",
+    "PROYECTOS.EMOJIS.TITULO": "Emoji Searcher",
+    "PROYECTOS.PELIS.TEXTO": "This website consumes an API to allow users to search and obtain detailed information about movies. Additionally, it has an intuitive and easy-to-use interface.",
+    "PROYECTOS.PELIS.TITULO":"Movie Searcher",
+    "PROYECTOS.COLORES.TEXTO": "Website that uses a specialized library to generate a wide variety of color palettes.",
+    "PROYECTOS.COLORES.TITULO": "Color Generator",
+    "PROYECTOS.SUSCRIPCIONES.TEXTO": "Subscription budget management application that allows you to easily control your expenses on services like Netflix, HBO, and many more.",
+    "PROYECTOS.SUSCRIPCIONES.TITULO": "Subscriptions",
+    "PROYECTOS.TRANSF.TEXTO": "This transfer app guides the user step by step. Enter the amount to transfer, verify the details, select the method, and confirm the operation. Easy, fast, and secure.",
+    "PROYECTOS.TRANSF.TITULO": "Bank Transfer",
+    "PROYECTOS.BOTON.GITHUB" : "GitHub",
+    "PROYECTOS.BOTON.WEB" : "Website",
+    
+    "TECNOLOGIAS.TITULO": "TECHNOLOGIES",
+
+    "CONTACTO.TITULO": "CONTACT",
+    "CONTACTO.FORMULARIO.NOMBRE": "Name",
+    "CONTACTO.FORMULARIO.CORREO": "Email",
+    "CONTACTO.FORMULARIO.MENSAJE": "Message",
+    "CONTACTO.FORMULARIO.ENVIAR": "Send",
+    "CONTACTO.FORMULARIO.ENVIADO": "Message sent successfully",
+    "CONTACTAME.UBICACION": "FRANCE - DINAN",
+    "CONTACTAME.SUBTITULO": "CONTACT ME",
+
+    "FOOTER": "© Facundo Almiñana - 2024. All rights reserved."
+}

@@ -80,6 +80,62 @@
     margin-inline: 3rem;
   }
 
+  .boton-lenguaje {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  .boton-lenguaje:hover {
+    transform: scale(1.1);
+  }
+
+  .lenguaje-icon {
+    color: var(--primary-color);
+    width: 24px;
+    height: 24px;
+  }
+
+  .lenguaje-menu {
+    position: absolute;
+    top: calc(90% + -.5rem);
+    right: 30px;
+    background-color: var(--background-color);
+    border: 1px solid var(--primary-color);
+    padding: 1rem;
+    border-radius: .5rem;
+    gap: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: scale(0);
+    transition: .25s;
+    transform-origin: top left;
+  }
+
+  .active {
+    transform: scale(1);
+    transition-timing-function: cubic-bezier(.175,.885,.32,1.275);
+  }
+
+  .lenguaje {
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--clr-text);
+    font-size: .95rem;
+    font-family: var(--ff-title);
+    transition: .2s;
+    padding: .1rem .5rem;
+    border-radius: .5rem;
+    border: 1px solid transparent;
+  }
+
+  .lng-active {
+    color: var(--primary-color);
+    transform: scale(1.05);
+    border-color: var(--primary-color);
+  }
 
                        /***************    MQ    *****************/
   

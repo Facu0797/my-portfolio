@@ -1,0 +1,39 @@
+{
+    "NAVBAR.INICIO": "Accueil",
+    "NAVBAR.PROYECTOS": "Projets",
+    "NAVBAR.CONTACTO": "Contact",
+
+    "INICIO.H2": "Développeur FrontEnd",
+    "INICIO.TEXTO.UNO": "Je suis un programmeur autodidacte avec un fort intérêt pour la technologie. Je me consacre à l'étude et à l'amélioration constante de mes compétences.",
+    "INICIO.TEXTO.DOS": "J'aime résoudre des problèmes et relever des défis qui me permettent de grandir en tant que développeur. La programmation est ma motivation quotidienne et me pousse à continuer à apprendre.",
+    "INICIO.CV": "Télécharger CV",
+    
+    "PROYECTOS.TITULO": "PROJETS",
+    "PROYECTOS.BACCO.TEXTO": "Le projet Bacco Coffee était mon projet final pour le cours de JavaScript chez Coderhouse. C'est un site web minimaliste qui inclut un panier d'achat simple et efficace.",
+    "PROYECTOS.BACCO.TITULO": "Café Bacco",
+    "PROYECTOS.EMOJIS.TEXTO": "C'est une application en React+Vite qui permet de rechercher et de trouver des emojis rapidement via un fichier JSON, affichant des résultats pertinents en temps réel.",
+    "PROYECTOS.EMOJIS.TITULO": "Recherche d'Émoticônes",
+    "PROYECTOS.PELIS.TEXTO": "Ce site web utilise une API pour permettre aux utilisateurs de rechercher et d'obtenir des informations détaillées sur les films. De plus, il a une interface intuitive et facile à utiliser.",
+    "PROYECTOS.PELIS.TITULO":"Recherche de Films",
+    "PROYECTOS.COLORES.TEXTO": "Site web qui utilise une bibliothèque spécialisée pour générer une grande variété de palettes de couleurs.",
+    "PROYECTOS.COLORES.TITULO": "Générateur de Couleurs",
+    "PROYECTOS.SUSCRIPCIONES.TEXTO": "Application de gestion de budget pour les abonnements qui vous permet de contrôler facilement vos dépenses pour des services comme Netflix, HBO et bien d'autres.",
+    "PROYECTOS.SUSCRIPCIONES.TITULO": "Abonnements",
+    "PROYECTOS.TRANSF.TEXTO": "Cette application de transfert guide l'utilisateur étape par étape. Entrez le montant à transférer, vérifiez les informations, sélectionnez la méthode et confirmez l'opération. Facile, rapide et sûr.",
+    "PROYECTOS.TRANSF.TITULO": "Transfert Bancaire",
+    "PROYECTOS.BOTON.GITHUB" : "GitHub",
+    "PROYECTOS.BOTON.WEB" : "Site Web",
+    
+    "TECNOLOGIAS.TITULO": "TECHNOLOGIES",
+
+    "CONTACTO.TITULO": "CONTACT",
+    "CONTACTO.FORMULARIO.NOMBRE": "Nom",
+    "CONTACTO.FORMULARIO.CORREO": "Mail",
+    "CONTACTO.FORMULARIO.MENSAJE": "Message",
+    "CONTACTO.FORMULARIO.ENVIAR": "Envoyer",
+    "CONTACTO.FORMULARIO.ENVIADO": "Message envoyé avec succès",
+    "CONTACTAME.UBICACION": "FRANCE - DINAN",
+    "CONTACTAME.SUBTITULO": "CONTACTEZ-MOI",
+
+    "FOOTER": "© Facundo Almiñana - 2024. Tous droits réservés."
+}

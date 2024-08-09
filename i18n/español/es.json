@@ -1,0 +1,40 @@
+{
+    "NAVBAR.INICIO": "Inicio",
+    "NAVBAR.PROYECTOS": "Proyectos",
+    "NAVBAR.CONTACTO": "Contacto",
+
+    "INICIO.H2": "Desarrollador FrontEnd",
+    "INICIO.TEXTO.UNO": "Soy un programador autodidacta con un fuerte interés en la tecnología. Me dedico a estudiar y mejorar mis habilidades de manera constante.",
+    "INICIO.TEXTO.DOS": "Disfruto resolviendo problemas y enfrentando desafíos que me permiten crecer como desarrollador. La programación es mi motivación diaria y me impulsa a seguir aprendiendo.",
+    "INICIO.CV": "Descargar CV",
+    
+    "PROYECTOS.TITULO": "PROYECTOS",
+    "PROYECTOS.BACCO.TEXTO": "Proyecto Bacco Coffee fue mi entrega final del curso de JavaScript en Coderhouse. Es un sitio web minimalista que incluye un carrito de compras sencilla y eficiente.",
+    "PROYECTOS.BACCO.TITULO": "Cafeteria Bacco",
+    "PROYECTOS.EMOJIS.TEXTO": "Es una aplicación en React+Vite que permite buscar y encontrar emojis rápidamente a través de un archivo JSON, mostrando resultados relevantes en tiempo real.",
+    "PROYECTOS.EMOJIS.TITULO": "Buscador de Emoticones",
+    "PROYECTOS.PELIS.TEXTO": "Este sitio web consume una API para permitir a los usuarios buscar y obtener información detallada sobre películas. Ademas, tiene una interfaz intuitiva y fácil de usar.",
+    "PROYECTOS.PELIS.TITULO":"Buscador de Peliculas",
+    "PROYECTOS.COLORES.TEXTO": "Sitio web que utiliza una biblioteca especializada para generar una amplia variedad de paletas de colores.",
+    "PROYECTOS.COLORES.TITULO": "Generador de Colores",
+    "PROYECTOS.SUSCRIPCIONES.TEXTO": "Aplicación de gestión de presupuestos de suscripciones que te permite controlar fácilmente tus gastos en servicios como Netflix, HBO y muchos más.",
+    "PROYECTOS.SUSCRIPCIONES.TITULO": "Suscripciones",
+    "PROYECTOS.TRANSF.TEXTO": "Esta App de transferencia guía al usuario paso a paso. Ingresa la cantidad a transferir, verifica los datos, selecciona el método y confirma la operación. Fácil, rápida y segura.",
+    "PROYECTOS.TRANSF.TITULO": "Transferencia Bancaria",
+    "PROYECTOS.BOTON.GITHUB" : "GitHub",
+    "PROYECTOS.BOTON.WEB" : "Sitio Web",
+    
+    "TECNOLOGIAS.TITULO": "TECNOLOGIAS",
+
+    "CONTACTO.TITULO": "CONTACTO",
+    "CONTACTO.FORMULARIO.NOMBRE": "Nombre",
+    "CONTACTO.FORMULARIO.CORREO": "Correo",
+    "CONTACTO.FORMULARIO.MENSAJE": "Mensaje",
+    "CONTACTO.FORMULARIO.ENVIAR": "Enviar",
+    "CONTACTO.FORMULARIO.ENVIADO": "Mensaje enviado con éxito",
+    "CONTACTAME.UBICACION": "FRANCIA - DINAN",
+    "CONTACTAME.SUBTITULO": "CONTACTAME",
+
+    "FOOTER": "© Facundo Almiñana - 2024. Todos los derechos reservados."
+
+}

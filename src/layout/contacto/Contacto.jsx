@@ -5,6 +5,7 @@ import BotonContacto from '../../Componentes/Botones/BotonContacto';
 import Redes from '../../Componentes/Redes';
 import { useState } from 'react';
 import { FaCheckCircle } from "react-icons/fa";
+import { useTranslation } from 'react-i18next';
 
 const Contacto = () => {
     const { register, handleSubmit, formState: { errors }, reset  } = useForm();
@@ -18,14 +19,16 @@ const Contacto = () => {
         reset()
     };
 
+    const {t} = useTranslation();
+
     return (
         <>
             {/* Secccion de contacto */}
             <section className="seccion-contacto" id="contacto">
-                <h2 className='contacto'>CONTACTO</h2>
+                <h2 className='contacto'>{t("CONTACTO.TITULO")}</h2>
                 <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
                     <label>
-                        Nombre:
+                        {t("CONTACTO.FORMULARIO.NOMBRE")}
                         <input
                             type="text" 
                             {...register('name', { required: 'El nombre es requerido' })} 
@@ -33,7 +36,7 @@ const Contacto = () => {
                         {errors.name && <p className="error">{errors.name.message}</p>}
                     </label>
                     <label>
-                        Correo:
+                    {t("CONTACTO.FORMULARIO.CORREO")}
                         <input 
                             type="email" 
                             {...register('email', { 
@@ -47,7 +50,7 @@ const Contacto = () => {
                         {errors.email && <p className="error">{errors.email.message}</p>}
                     </label>
                     <label>
-                        Mensaje:
+                    {t("CONTACTO.FORMULARIO.MENSAJE")}
                         <textarea 
                             {...register('message', { required: 'Debes escribir un mensaje' })} 
                         />
@@ -58,7 +61,7 @@ const Contacto = () => {
                     <div className='btn-enviar'>
                         <BotonContacto/>
                         {mensajeEnviado === true &&
-                            <p><span className='check-icon'> <FaCheckCircle /></span> Mensaje enviado con éxito</p>
+                            <p><span className='check-icon'> <FaCheckCircle /></span>{t("CONTACTO.FORMULARIO.ENVIADO")}</p>
                         }
                     </div>
                 </form>
@@ -67,13 +70,13 @@ const Contacto = () => {
                 <div className='contactame'>
                     <div className='contactame-ubicacion'>
                         <img className='img-ubicacion' width="25px" src={ubicacion} alt="ubicacion" />
-                        <h3>FRANCIA</h3>
+                        <h3>{t("CONTACTAME.UBICACION")}</h3>
                     </div>
                     <div>
                         <img width="350px" className='img-contactame' src={contactame} alt="contactame" />
                     </div>
                     <div className='redes-contacto'>
-                        <h3> CONTACTAME </h3>
+                        <h3> {t("CONTACTAME.SUBTITULO")} </h3>
                         <Redes />
                     </div>
                 </div>
