@@ -135,8 +135,12 @@
     }
   }
   
-  @media (max-width:410px) {
+  @media (max-width:420px) {
     .header {
       padding-inline: 1.5rem;
+      width: 100%;
+    }
+    .logo {
+      font-size: 1.1rem;
     }
   }

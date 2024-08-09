@@ -207,4 +207,7 @@
     .img-foto {
       max-width: 340px;
     }
+    .inicio-contactame {
+      gap: 3rem;
+    }
   }
