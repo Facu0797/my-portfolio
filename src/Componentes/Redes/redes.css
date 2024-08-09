@@ -1,0 +1,18 @@
+.redes {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .redes-icono{
+    display: flex;
+    gap: 1rem;
+    color: var(--primary-color);
+    width: 25px;
+    height: 23px;
+    transition: .3s;
+  }
+  
+  .redes-icono:hover {
+    transform: scale(1.3);
+  }

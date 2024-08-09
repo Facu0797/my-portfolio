@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import Boton from "../../Componentes/Botones/Boton";
-import Redes from "../../Componentes/Redes";
+import Redes from "../../Componentes/Redes/Redes";
 import fotoYo from "/assets/YO.png"
 
 const Inicio = () => {

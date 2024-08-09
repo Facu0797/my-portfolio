@@ -4,6 +4,7 @@ import "/src/layout/proyectos/proyectos.css"
 import "/src/layout/tecnologias/tecnologias.css"
 import "/src/layout/contacto/contacto.css"
 import "/src/layout/Footer/footer.css"
+import "/src/Componentes/Redes/redes.css"
 import './App.css'
 import "/src/Componentes/Botones/boton.css"
 import Nav from './layout/header/Nav';

@@ -25,10 +25,15 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    transition: .3s;
   }
   
   .seccion-tecnologias .tecnologias .tecnologia img {
     width: 80px;
     height: 70px;
+  }
+
+  .seccion-tecnologias .tecnologia:hover {
+    transform: scale(1.10);
   }
   

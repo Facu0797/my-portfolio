@@ -11,7 +11,7 @@ const Tecnologias = () => {
             <div className="tecnologias">
                 {tecnologias.map((item) => (
                     <div key={item.nombre} className="tecnologia">
-                        <img width="50px" src={item.icono} alt="" />
+                        <img src={item.icono} alt="" />
                         <p>{item.nombre}</p>
                     </div>    
                 ))}

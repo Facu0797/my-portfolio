@@ -17,6 +17,7 @@ const Nav = () => {
     const seleccionarLenguaje = (lenguaje) => {
         setSelectLeng(lenguaje);
         cambiarIdioma(lenguaje.toLowerCase());
+        setActive(false)
     }
 
     const cambiarIdioma = (idioma) => {

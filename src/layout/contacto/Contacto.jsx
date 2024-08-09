@@ -2,7 +2,7 @@ import { useForm } from 'react-hook-form';
 import ubicacion from "/assets/ubicacion.svg"
 import contactame from "/assets/contactame.svg"
 import BotonContacto from '../../Componentes/Botones/BotonContacto';
-import Redes from '../../Componentes/Redes';
+import Redes from '../../Componentes/Redes/Redes';
 import { useState } from 'react';
 import { FaCheckCircle } from "react-icons/fa";
 import { useTranslation } from 'react-i18next';
